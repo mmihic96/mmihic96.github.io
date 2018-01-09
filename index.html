@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Tic tac toe v2</title>
+    <link href="./style/index.style.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+    <h1>Tic tac toe</h1>
+    <table>
+        <tr>
+            <td id='field_1' onclick="selectField(1)"></td>
+            <td id='field_2' onclick="selectField(2)"></td>
+            <td id='field_3' onclick="selectField(3)"></td>
+        </tr>
+        <tr>
+            <td id='field_4' onclick="selectField(4)"></td>
+            <td id='field_5' onclick="selectField(5)"></td>
+            <td id='field_6' onclick="selectField(6)"></td>
+        </tr>
+        <tr>
+            <td id='field_7' onclick="selectField(7)"></td>
+            <td id='field_8' onclick="selectField(8)"></td>
+            <td id='field_9' onclick="selectField(9)"></td>
+        </tr>
+    </table>
+    <button id="resetButton" onclick='resetFields()'>Reset button</button>
+    <p id="gameResultMessage"></p>
+    <p id="errorMessage"></p>
+    <script src="./script/index.script.js"></script>
+</body>
+
+</html>
